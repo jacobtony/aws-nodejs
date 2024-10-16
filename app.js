@@ -7,3 +7,5 @@ app.get( '/awsServices', ( req, res, next ) => {
 } )
 console.log("Hello World")
 
+app.listen(8080)
+
