@@ -5,7 +5,7 @@ const app = express();
 app.get( '/awsServices', ( req, res, next ) => {
 
     console.log( 'awsServices requested' )
-    res.send( 'ec2s3' )
+    res.json( ['ec', '2s3'] )
 } )
 console.log("Hello World")
 
