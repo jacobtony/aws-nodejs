@@ -10,7 +10,7 @@ app.get( '/awsServices', ( req, res, next ) => {
 
 app.get( '/', ( req, res, next ) => {
 
-    res.send(`<h1>Welcome to my EC2 Server -Jacob Tony!!!! Storage is learnt</h1>`)
+    res.send(`<h1>Welcome to my EC2 Server -Jacob Tony Jacob!!!!</h1>`)
 } )
 console.log("Hello World, i'm there")
 
