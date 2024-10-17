@@ -5,9 +5,22 @@ const app = express();
 app.get( '/awsServices', ( req, res, next ) => {
 
     console.log( 'awsServices requested' )
-    res.json( ['ec', '2s3'] )
+    res.status(200).json( ['ec', 's3', 'I am', "Billing"] )
 } )
-console.log("Hello World")
+
+app.get( '/', ( req, res, next ) => {
+
+    res.send(`<h1>Welcome to my EC2 Server -Jacob Tony</h1>`)
+} )
+console.log("Hello World, i'm there")
 
 app.listen(8080)
+
+/*
+
+rsync -avz --exclude 'node_modules' --exclude '.gitignore' \
+-e "ssh -i ~/AWS/awsdemo1.pem" \
+. ubuntu@ec2-54-166-238-252.compute-1.amazonaws.com:~/efs
+*/
+
 
