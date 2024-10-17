@@ -10,7 +10,7 @@ app.get( '/awsServices', ( req, res, next ) => {
 
 app.get( '/', ( req, res, next ) => {
 
-    res.send(`<h1>Welcome to my EC2 Server -Jacob Tony.. This is my first ec2 Server implementing Elastic load balancing, AWS load balance</h1>`)
+    res.send(`<h1>Welcome to my EC2 Server -Jacob Tony!!!! Storage is learnt</h1>`)
 } )
 console.log("Hello World, i'm there")
 
